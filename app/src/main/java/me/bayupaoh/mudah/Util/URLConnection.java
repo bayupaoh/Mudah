@@ -13,4 +13,10 @@ public class URLConnection {
     public static String getUrlKurs(String namaBank) {
         return urlAPI+"/kurs?bank="+namaBank;
     }
+
+    public static String getUrlPLN(String idPelanggan,String tahun,String bln) {
+        return urlAPI+"/tagihan-pln?idp="+idPelanggan.trim()+"&thn="+tahun+"&bln="+bln;
+    }
+
+
 }

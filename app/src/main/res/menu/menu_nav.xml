@@ -8,21 +8,6 @@
             android:icon="@drawable/halal_sign"
             />
         <item
-            android:id="@+id/id_menu_bioskop"
-            android:title="@string/cek_jadwal_bioskop"
-            android:icon="@drawable/popcorn"
-            />
-        <item
-            android:id="@+id/id_menu_pajak"
-            android:title="@string/pajak_kendaraan"
-            android:icon="@drawable/motorcycle"
-            />
-        <item
-            android:id="@+id/id_menu_cuaca"
-            android:title="@string/prediksi_cuaca"
-            android:icon="@drawable/cloudy"
-            />
-        <item
             android:id="@+id/id_menu_kurs"
             android:title="@string/kurs_mata_asing"
             android:icon="@drawable/change"
